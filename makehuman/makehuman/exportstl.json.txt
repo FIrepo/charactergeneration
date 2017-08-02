@@ -1,0 +1,5 @@
+{
+	"feet_on_ground": 0, /* 1 */
+	"unit": "meter", /* centimeter, decimeter, inch */
+	"binary": 0 /* 1 */
+}

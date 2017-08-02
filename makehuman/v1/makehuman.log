@@ -1,0 +1,456 @@
+[2017-08-02 13:33:15,860] log.py->message():133 -- MESSAGE -- Initialized logging
+[2017-08-02 13:33:15,899] log.py->debug():112 -- DEBUG -- VERSION: 1.2.0 (r2156 312760b1b66a) [hg parents command]
+[2017-08-02 13:33:15,899] log.py->debug():112 -- DEBUG -- HG REVISION: r2156 (312760b1b66a) [hg parents command]
+[2017-08-02 13:33:15,899] log.py->debug():112 -- DEBUG -- HG BRANCH: default
+[2017-08-02 13:33:15,900] log.py->debug():112 -- DEBUG -- SHORT VERSION: v1.2.0
+[2017-08-02 13:33:15,900] log.py->debug():112 -- DEBUG -- BASEMESH VERSION: hm08
+[2017-08-02 13:33:15,900] log.py->debug():112 -- DEBUG -- IS BUILT (FROZEN): No
+[2017-08-02 13:33:15,900] log.py->debug():112 -- DEBUG -- IS RELEASE VERSION: No
+[2017-08-02 13:33:15,900] log.py->debug():112 -- DEBUG -- DEFAULT ENCODING: utf-8
+[2017-08-02 13:33:15,901] log.py->debug():112 -- DEBUG -- FILESYSTEM ENCODING: UTF-8
+[2017-08-02 13:33:15,901] log.py->debug():112 -- DEBUG -- STDOUT ENCODING: None
+[2017-08-02 13:33:15,901] log.py->debug():112 -- DEBUG -- WORKING DIRECTORY: /home/absentia/makehuman/makehuman
+[2017-08-02 13:33:15,901] log.py->debug():112 -- DEBUG -- HOME LOCATION: /home/absentia
+[2017-08-02 13:33:15,902] log.py->debug():112 -- DEBUG -- PYTHON PATH: ./:./lib:./apps:./shared:./apps/gui:./core:/home/absentia/makehuman/makehuman:/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/home/absentia/.local/lib/python2.7/site-packages:/home/absentia/.local/lib/python2.7/site-packages/video2gif_code-0.1-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/tqdm-4.11.2-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/moviepy-0.2.3.2-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/imageio-2.1.2-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/olefile-0.44-py2.7.egg:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages/PILcompat:/usr/lib/python2.7/dist-packages/gtk-2.0:/usr/lib/python2.7/dist-packages/ubuntu-sso-client
+[2017-08-02 13:33:15,902] log.py->debug():112 -- DEBUG -- DLL PATH: /home/absentia/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+[2017-08-02 13:33:15,903] log.py->debug():112 -- DEBUG -- SYS.VERSION: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+[2017-08-02 13:33:15,903] log.py->debug():112 -- DEBUG -- SYS.PLATFORM: linux2
+[2017-08-02 13:33:15,903] log.py->debug():112 -- DEBUG -- SYS.EXECUTABLE: /usr/bin/python2
+[2017-08-02 13:33:15,923] log.py->debug():112 -- DEBUG -- PLATFORM.MACHINE: x86_64
+[2017-08-02 13:33:15,924] log.py->debug():112 -- DEBUG -- PLATFORM.PROCESSOR: x86_64
+[2017-08-02 13:33:15,924] log.py->debug():112 -- DEBUG -- PLATFORM.UNAME.RELEASE: 4.4.0-83-generic
+[2017-08-02 13:33:15,924] log.py->debug():112 -- DEBUG -- PLATFORM.LINUX_DISTRIBUTION: Ubuntu 16.04 xenial
+[2017-08-02 13:33:16,926] log.py->debug():112 -- DEBUG -- NUMPY.VERSION: 1.11.0
+[2017-08-02 13:33:17,443] acceleratesupport.py-><module>():17 -- MESSAGE -- No OpenGL_accelerate module loaded: No module named OpenGL_accelerate
+[2017-08-02 13:33:17,530] formathandler.py->loadPlugin():46 -- MESSAGE -- Unable to load registered array format handler numeric
+[2017-08-02 13:33:17,541] formathandler.py->loadPlugin():46 -- MESSAGE -- Unable to load registered array format handler vbo
+[2017-08-02 13:33:17,542] formathandler.py->loadPlugin():46 -- MESSAGE -- Unable to load registered array format handler vbooffset
+[2017-08-02 13:33:19,434] log.py->debug():112 -- DEBUG -- PYQT.VERSION: 4.8.7
+[2017-08-02 13:33:19,544] log.py->debug():112 -- DEBUG -- PYQT.JPG_SUPPORT: supported
+[2017-08-02 13:33:19,544] log.py->debug():112 -- DEBUG -- PYQT.SVG_SUPPORT: supported
+[2017-08-02 13:33:19,545] log.py->debug():112 -- DEBUG -- QT.PLUGIN_PATH: /usr/lib/x86_64-linux-gnu/qt4/plugins:/usr/bin
+[2017-08-02 13:33:19,546] log.py->debug():112 -- DEBUG -- QT.PLUGIN_PATH_ENV: 
+[2017-08-02 13:33:19,546] log.py->debug():112 -- DEBUG -- QT.CONF: NOT PRESENT
+[2017-08-02 13:33:20,532] log.py->debug():112 -- DEBUG -- PYOPENGL.VERSION: 3.0.2
+[2017-08-02 13:33:20,532] log.py->debug():112 -- DEBUG -- GL.VENDOR: Intel Open Source Technology Center
+[2017-08-02 13:33:20,532] log.py->debug():112 -- DEBUG -- GL.RENDERER: Mesa DRI Intel(R) Ivybridge Mobile 
+[2017-08-02 13:33:20,533] log.py->debug():112 -- DEBUG -- GL.VERSION: 3.0 Mesa 12.0.6
+[2017-08-02 13:33:20,533] extensions.py->getGLVersion():92 -- DEBUG -- OpenGL Version: 3.0 Mesa 12.0.6
+[2017-08-02 13:33:20,534] log.py->debug():112 -- DEBUG -- GLSL.VERSION: 1.30
+[2017-08-02 13:33:20,534] extensions.py->hasGLExtension():148 -- DEBUG -- GL Extension GL_ARB_multisample available
+[2017-08-02 13:33:20,537] log.py->debug():112 -- DEBUG -- GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+[2017-08-02 13:33:20,562] log.py->debug():112 -- DEBUG -- Creating new texture for image data/textures/texture_notfound.png.
+[2017-08-02 13:33:20,589] extensions.py->hasGLExtension():148 -- DEBUG -- GL Extension GL_ARB_texture_non_power_of_two available
+[2017-08-02 13:33:20,589] log.py->debug():112 -- DEBUG -- GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled
+[2017-08-02 13:33:20,591] log.py->debug():112 -- DEBUG -- initTexture: 256, 256, False
+[2017-08-02 13:33:20,630] log.py->debug():112 -- DEBUG -- Setting language to english
+[2017-08-02 13:33:20,680] log.py->debug():112 -- DEBUG -- Setting language to english
+[2017-08-02 13:33:20,683] log.py->message():133 -- MESSAGE -- Initializing default theme first.
+[2017-08-02 13:33:20,695] log.py->message():133 -- MESSAGE -- Theme default version 1.1.0
+[2017-08-02 13:33:20,695] log.py->debug():112 -- DEBUG -- Loaded theme data/themes/default.mht
+[2017-08-02 13:33:20,697] log.py->debug():112 -- DEBUG -- Using Qt system style gtk+
+[2017-08-02 13:33:20,879] log.py->message():133 -- MESSAGE -- Loading human
+[2017-08-02 13:33:20,952] log.py->debug():112 -- DEBUG -- Loading binary mesh data/3dobjs/base.npz.
+[2017-08-02 13:33:21,333] log.py->debug():112 -- DEBUG -- Loading material from file data/skins/default.mhmat
+[2017-08-02 13:33:21,427] log.py->debug():112 -- DEBUG -- Shader: adding built-in uniform gl_NormalMatrix
+[2017-08-02 13:33:21,428] log.py->debug():112 -- DEBUG -- Shader: adding built-in uniform gl_ModelViewProjectionMatrix
+[2017-08-02 13:33:21,429] log.py->debug():112 -- DEBUG -- VectorUniform(AdditiveShading) = [ 0.]
+[2017-08-02 13:33:21,431] log.py->debug():112 -- DEBUG -- VectorUniform(AdditiveShading) = [ 0.]
+[2017-08-02 13:33:21,988] log.py->message():133 -- MESSAGE -- Loaded vertex weights MakeHuman weights from file /home/absentia/makehuman/makehuman/data/rigs/default_weights.mhw
+[2017-08-02 13:33:23,084] log.py->message():133 -- MESSAGE -- Loading scene
+[2017-08-02 13:33:23,177] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/default.mhscene
+[2017-08-02 13:33:23,188] log.py->message():133 -- MESSAGE -- Loading main GUI
+[2017-08-02 13:33:23,242] log.py->debug():112 -- DEBUG -- Assigning setting loaddir value /home/absentia/makehuman/v1/models that was loaded before the setting was declared.
+[2017-08-02 13:33:23,263] log.py->debug():112 -- DEBUG -- Assigning setting savedir value /home/absentia/makehuman/v1/models that was loaded before the setting was declared.
+[2017-08-02 13:33:23,269] log.py->debug():112 -- DEBUG -- Assigning setting exportdir value /home/absentia/makehuman/v1/exports that was loaded before the setting was declared.
+[2017-08-02 13:33:23,304] log.py->message():133 -- MESSAGE -- Loading plugins
+[2017-08-02 13:33:23,367] log.py->message():133 -- MESSAGE -- Importing plugin 0_modeling_0_modifiers
+[2017-08-02 13:33:23,405] log.py->message():133 -- MESSAGE -- Imported plugin 0_modeling_0_modifiers
+[2017-08-02 13:33:23,405] log.py->message():133 -- MESSAGE -- Loading plugin 0_modeling_0_modifiers
+[2017-08-02 13:33:23,406] log.py->debug():112 -- DEBUG -- Loading modifiers from data/modifiers/modeling_modifiers.json
+[2017-08-02 13:33:23,450] log.py->debug():112 -- DEBUG -- Attempting to load targets from NPZ file.
+[2017-08-02 13:33:25,147] log.py->debug():112 -- DEBUG -- 1258 targets loaded from NPZ file succesfully.
+[2017-08-02 13:33:28,978] log.py->message():133 -- MESSAGE -- Loaded 249 modifiers from file data/modifiers/modeling_modifiers.json
+[2017-08-02 13:33:28,987] log.py->message():133 -- MESSAGE -- Loaded 249 modifier descriptions from file data/modifiers/modeling_modifiers_desc.json
+[2017-08-02 13:33:30,592] log.py->message():133 -- MESSAGE -- Loaded plugin 0_modeling_0_modifiers
+[2017-08-02 13:33:30,710] log.py->message():133 -- MESSAGE -- Importing plugin 0_modeling_8_random
+[2017-08-02 13:33:30,728] log.py->message():133 -- MESSAGE -- Imported plugin 0_modeling_8_random
+[2017-08-02 13:33:30,729] log.py->message():133 -- MESSAGE -- Loading plugin 0_modeling_8_random
+[2017-08-02 13:33:30,751] log.py->message():133 -- MESSAGE -- Loaded plugin 0_modeling_8_random
+[2017-08-02 13:33:30,755] log.py->message():133 -- MESSAGE -- Importing plugin 0_modeling_9_custom_targets
+[2017-08-02 13:33:30,772] log.py->message():133 -- MESSAGE -- Imported plugin 0_modeling_9_custom_targets
+[2017-08-02 13:33:30,773] log.py->message():133 -- MESSAGE -- Loading plugin 0_modeling_9_custom_targets
+[2017-08-02 13:33:30,788] log.py->message():133 -- MESSAGE -- Loaded plugin 0_modeling_9_custom_targets
+[2017-08-02 13:33:30,794] log.py->message():133 -- MESSAGE -- Importing plugin 0_modeling_a_measurement
+[2017-08-02 13:33:30,806] log.py->message():133 -- MESSAGE -- Imported plugin 0_modeling_a_measurement
+[2017-08-02 13:33:30,806] log.py->message():133 -- MESSAGE -- Loading plugin 0_modeling_a_measurement
+[2017-08-02 13:33:30,807] log.py->debug():112 -- DEBUG -- Loading modifiers from data/modifiers/measurement_modifiers.json
+[2017-08-02 13:33:30,826] log.py->message():133 -- MESSAGE -- Loaded 20 modifiers from file data/modifiers/measurement_modifiers.json
+[2017-08-02 13:33:30,834] log.py->message():133 -- MESSAGE -- Loaded 20 modifier descriptions from file data/modifiers/measurement_modifiers_desc.json
+[2017-08-02 13:33:30,953] log.py->message():133 -- MESSAGE -- Loaded plugin 0_modeling_a_measurement
+[2017-08-02 13:33:30,977] log.py->message():133 -- MESSAGE -- Importing plugin 0_modeling_background
+[2017-08-02 13:33:31,002] log.py->message():133 -- MESSAGE -- Imported plugin 0_modeling_background
+[2017-08-02 13:33:31,003] log.py->message():133 -- MESSAGE -- Loading plugin 0_modeling_background
+[2017-08-02 13:33:31,095] log.py->message():133 -- MESSAGE -- Loaded plugin 0_modeling_background
+[2017-08-02 13:33:31,106] log.py->message():133 -- MESSAGE -- Importing plugin 2_foot_posing
+[2017-08-02 13:33:31,122] log.py->message():133 -- MESSAGE -- Imported plugin 2_foot_posing
+[2017-08-02 13:33:31,122] log.py->message():133 -- MESSAGE -- Loading plugin 2_foot_posing
+[2017-08-02 13:33:31,136] log.py->message():133 -- MESSAGE -- Loaded plugin 2_foot_posing
+[2017-08-02 13:33:31,137] log.py->message():133 -- MESSAGE -- Importing plugin 2_posing_expression
+[2017-08-02 13:33:31,148] log.py->message():133 -- MESSAGE -- Imported plugin 2_posing_expression
+[2017-08-02 13:33:31,148] log.py->message():133 -- MESSAGE -- Loading plugin 2_posing_expression
+[2017-08-02 13:33:31,157] log.py->message():133 -- MESSAGE -- Loaded plugin 2_posing_expression
+[2017-08-02 13:33:31,161] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_animation
+[2017-08-02 13:33:31,168] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_animation
+[2017-08-02 13:33:31,169] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_animation
+[2017-08-02 13:33:31,173] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_animation
+[2017-08-02 13:33:31,177] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_clothes_chooser
+[2017-08-02 13:33:31,198] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_clothes_chooser
+[2017-08-02 13:33:31,199] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_clothes_chooser
+[2017-08-02 13:33:31,221] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_clothes_chooser
+[2017-08-02 13:33:31,226] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_eye_chooser
+[2017-08-02 13:33:31,227] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_eye_chooser
+[2017-08-02 13:33:31,228] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_eye_chooser
+[2017-08-02 13:33:31,235] log.py->message():133 -- MESSAGE -- Selecting proxy file "data/eyes/high-poly/high-poly.mhclo" from eyes library.
+[2017-08-02 13:33:31,249] log.py->debug():112 -- DEBUG -- Loading binary proxy data/eyes/high-poly/high-poly.mhpxy.
+[2017-08-02 13:33:31,260] log.py->debug():112 -- DEBUG -- Loading proxy file: data/eyes/high-poly/high-poly.mhpxy.
+[2017-08-02 13:33:31,298] log.py->debug():112 -- DEBUG -- Loading material from file /home/absentia/makehuman/makehuman/data/eyes/materials/brown.mhmat
+[2017-08-02 13:33:31,331] log.py->debug():112 -- DEBUG -- Shader: adding built-in uniform gl_NormalMatrix
+[2017-08-02 13:33:31,332] log.py->debug():112 -- DEBUG -- Shader: adding built-in uniform gl_ModelViewProjectionMatrix
+[2017-08-02 13:33:31,333] log.py->debug():112 -- DEBUG -- VectorUniform(AdditiveShading) = [ 0.]
+[2017-08-02 13:33:31,335] log.py->debug():112 -- DEBUG -- VectorUniform(AdditiveShading) = [ 0.]
+[2017-08-02 13:33:31,339] log.py->debug():112 -- DEBUG -- Loading binary mesh /home/absentia/makehuman/makehuman/data/eyes/high-poly/high-poly.npz.
+[2017-08-02 13:33:31,774] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_eye_chooser
+[2017-08-02 13:33:31,779] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_eyebrows
+[2017-08-02 13:33:31,780] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_eyebrows
+[2017-08-02 13:33:31,780] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_eyebrows
+[2017-08-02 13:33:31,788] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_eyebrows
+[2017-08-02 13:33:31,793] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_eyelashes
+[2017-08-02 13:33:31,799] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_eyelashes
+[2017-08-02 13:33:31,800] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_eyelashes
+[2017-08-02 13:33:31,808] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_eyelashes
+[2017-08-02 13:33:31,813] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_material_chooser
+[2017-08-02 13:33:31,829] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_material_chooser
+[2017-08-02 13:33:31,830] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_material_chooser
+[2017-08-02 13:33:31,843] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_material_chooser
+[2017-08-02 13:33:31,848] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_polygon_hair_chooser
+[2017-08-02 13:33:31,849] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_polygon_hair_chooser
+[2017-08-02 13:33:31,850] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_polygon_hair_chooser
+[2017-08-02 13:33:31,874] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_polygon_hair_chooser
+[2017-08-02 13:33:31,878] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_pose
+[2017-08-02 13:33:31,879] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_pose
+[2017-08-02 13:33:31,880] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_pose
+[2017-08-02 13:33:31,888] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_pose
+[2017-08-02 13:33:31,892] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_proxy_chooser
+[2017-08-02 13:33:31,893] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_proxy_chooser
+[2017-08-02 13:33:31,894] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_proxy_chooser
+[2017-08-02 13:33:31,915] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_proxy_chooser
+[2017-08-02 13:33:31,920] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_skeleton
+[2017-08-02 13:33:31,941] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_skeleton
+[2017-08-02 13:33:31,942] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_skeleton
+[2017-08-02 13:33:31,958] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_skeleton
+[2017-08-02 13:33:31,966] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_teeth
+[2017-08-02 13:33:31,967] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_teeth
+[2017-08-02 13:33:31,968] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_teeth
+[2017-08-02 13:33:31,975] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_teeth
+[2017-08-02 13:33:31,980] log.py->message():133 -- MESSAGE -- Importing plugin 3_libraries_tongue
+[2017-08-02 13:33:31,981] log.py->message():133 -- MESSAGE -- Imported plugin 3_libraries_tongue
+[2017-08-02 13:33:31,981] log.py->message():133 -- MESSAGE -- Loading plugin 3_libraries_tongue
+[2017-08-02 13:33:32,033] log.py->message():133 -- MESSAGE -- Loaded plugin 3_libraries_tongue
+[2017-08-02 13:33:32,038] log.py->message():133 -- MESSAGE -- Importing plugin 4_rendering_9_viewer
+[2017-08-02 13:33:32,039] log.py->message():133 -- MESSAGE -- Imported plugin 4_rendering_9_viewer
+[2017-08-02 13:33:32,039] log.py->message():133 -- MESSAGE -- Loading plugin 4_rendering_9_viewer
+[2017-08-02 13:33:32,046] log.py->message():133 -- MESSAGE -- Loaded plugin 4_rendering_9_viewer
+[2017-08-02 13:33:32,051] log.py->message():133 -- MESSAGE -- Importing plugin 4_rendering_opengl
+[2017-08-02 13:33:32,053] log.py->message():133 -- MESSAGE -- Imported plugin 4_rendering_opengl
+[2017-08-02 13:33:32,054] log.py->message():133 -- MESSAGE -- Loading plugin 4_rendering_opengl
+[2017-08-02 13:33:32,057] log.py->debug():112 -- DEBUG -- Assigning setting rendering_width value 800 that was loaded before the setting was declared.
+[2017-08-02 13:33:32,057] log.py->debug():112 -- DEBUG -- Assigning setting rendering_height value 600 that was loaded before the setting was declared.
+[2017-08-02 13:33:32,058] log.py->debug():112 -- DEBUG -- Assigning setting GL_RENDERER_SSS value False that was loaded before the setting was declared.
+[2017-08-02 13:33:32,058] log.py->debug():112 -- DEBUG -- Assigning setting GL_RENDERER_AA value True that was loaded before the setting was declared.
+[2017-08-02 13:33:32,066] extensions.py->hasGLExtension():148 -- DEBUG -- GL Extension GL_ARB_framebuffer_object available
+[2017-08-02 13:33:32,067] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glGenRenderbuffers from glGenRenderbuffers, glGenRenderbuffersEXT
+[2017-08-02 13:33:32,068] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glBindRenderbuffer from glBindRenderbuffer, glBindRenderbufferEXT
+[2017-08-02 13:33:32,068] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glRenderbufferStorage from glRenderbufferStorage, glRenderbufferStorageEXT
+[2017-08-02 13:33:32,069] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glGenFramebuffers from glGenFramebuffers, glGenFramebuffersEXT
+[2017-08-02 13:33:32,069] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glBindFramebuffer from glBindFramebuffer, glBindFramebufferEXT
+[2017-08-02 13:33:32,070] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glFramebufferRenderbuffer from glFramebufferRenderbuffer, glFramebufferRenderbufferEXT
+[2017-08-02 13:33:32,071] log.py->message():133 -- MESSAGE -- Loaded plugin 4_rendering_opengl
+[2017-08-02 13:33:32,076] log.py->message():133 -- MESSAGE -- Importing plugin 4_rendering_scene
+[2017-08-02 13:33:32,089] log.py->message():133 -- MESSAGE -- Imported plugin 4_rendering_scene
+[2017-08-02 13:33:32,090] log.py->message():133 -- MESSAGE -- Loading plugin 4_rendering_scene
+[2017-08-02 13:33:32,093] mhmain.py->addSetting():327 -- NOTICE -- Setting rendering_width is already declared. Adding it again has no effect.
+[2017-08-02 13:33:32,094] mhmain.py->addSetting():327 -- NOTICE -- Setting rendering_height is already declared. Adding it again has no effect.
+[2017-08-02 13:33:32,098] log.py->message():133 -- MESSAGE -- Loaded plugin 4_rendering_scene
+[2017-08-02 13:33:32,102] log.py->message():133 -- MESSAGE -- Importing plugin 5_settings_0_settings
+[2017-08-02 13:33:32,104] log.py->message():133 -- MESSAGE -- Imported plugin 5_settings_0_settings
+[2017-08-02 13:33:32,104] log.py->message():133 -- MESSAGE -- Loading plugin 5_settings_0_settings
+[2017-08-02 13:33:32,285] log.py->debug():112 -- DEBUG -- Setting language to english
+[2017-08-02 13:33:32,297] log.py->message():133 -- MESSAGE -- Theme makehuman version 1.1.0
+[2017-08-02 13:33:32,303] log.py->debug():112 -- DEBUG -- Loaded theme data/themes/makehuman.mht
+[2017-08-02 13:33:35,026] log.py->debug():112 -- DEBUG -- Loaded Qt style data/themes/makehuman.qss
+[2017-08-02 13:33:36,074] log.py->message():133 -- MESSAGE -- Loaded plugin 5_settings_0_settings
+[2017-08-02 13:33:36,120] log.py->message():133 -- MESSAGE -- Importing plugin 5_settings_mouse
+[2017-08-02 13:33:36,161] log.py->message():133 -- MESSAGE -- Imported plugin 5_settings_mouse
+[2017-08-02 13:33:36,161] log.py->message():133 -- MESSAGE -- Loading plugin 5_settings_mouse
+[2017-08-02 13:33:36,179] log.py->message():133 -- MESSAGE -- Loaded plugin 5_settings_mouse
+[2017-08-02 13:33:36,187] log.py->message():133 -- MESSAGE -- Importing plugin 5_settings_shortcuts
+[2017-08-02 13:33:36,194] log.py->message():133 -- MESSAGE -- Imported plugin 5_settings_shortcuts
+[2017-08-02 13:33:36,194] log.py->message():133 -- MESSAGE -- Loading plugin 5_settings_shortcuts
+[2017-08-02 13:33:36,258] log.py->message():133 -- MESSAGE -- Loaded plugin 5_settings_shortcuts
+[2017-08-02 13:33:36,270] log.py->message():133 -- MESSAGE -- Importing plugin 6_help
+[2017-08-02 13:33:36,318] log.py->message():133 -- MESSAGE -- Imported plugin 6_help
+[2017-08-02 13:33:36,319] log.py->message():133 -- MESSAGE -- Loading plugin 6_help
+[2017-08-02 13:33:36,349] log.py->message():133 -- MESSAGE -- Loaded plugin 6_help
+[2017-08-02 13:33:36,358] log.py->message():133 -- MESSAGE -- Importing plugin 7_data
+[2017-08-02 13:33:36,359] log.py->message():133 -- MESSAGE -- Imported plugin 7_data
+[2017-08-02 13:33:36,360] log.py->message():133 -- MESSAGE -- Loading plugin 7_data
+[2017-08-02 13:33:36,803] log.py->message():133 -- MESSAGE -- Loaded plugin 7_data
+[2017-08-02 13:33:36,814] log.py->message():133 -- MESSAGE -- Importing plugin 7_example
+[2017-08-02 13:33:36,869] log.py->message():133 -- MESSAGE -- Imported plugin 7_example
+[2017-08-02 13:33:36,869] log.py->message():133 -- MESSAGE -- Loading plugin 7_example
+[2017-08-02 13:33:36,906] log.py->message():133 -- MESSAGE -- Loaded plugin 7_example
+[2017-08-02 13:33:36,913] log.py->message():133 -- MESSAGE -- Importing plugin 7_expression_mixer
+[2017-08-02 13:33:36,914] log.py->message():133 -- MESSAGE -- Imported plugin 7_expression_mixer
+[2017-08-02 13:33:36,915] log.py->message():133 -- MESSAGE -- Loading plugin 7_expression_mixer
+[2017-08-02 13:33:36,955] log.py->message():133 -- MESSAGE -- Loaded plugin 7_expression_mixer
+[2017-08-02 13:33:36,963] log.py->message():133 -- MESSAGE -- Importing plugin 7_logging
+[2017-08-02 13:33:37,004] log.py->message():133 -- MESSAGE -- Imported plugin 7_logging
+[2017-08-02 13:33:37,004] log.py->message():133 -- MESSAGE -- Loading plugin 7_logging
+[2017-08-02 13:33:37,251] log.py->message():133 -- MESSAGE -- Loaded plugin 7_logging
+[2017-08-02 13:33:37,258] log.py->message():133 -- MESSAGE -- Importing plugin 7_material_editor
+[2017-08-02 13:33:37,261] log.py->message():133 -- MESSAGE -- Imported plugin 7_material_editor
+[2017-08-02 13:33:37,262] log.py->message():133 -- MESSAGE -- Loading plugin 7_material_editor
+[2017-08-02 13:33:37,300] log.py->message():133 -- MESSAGE -- Loaded plugin 7_material_editor
+[2017-08-02 13:33:37,310] log.py->message():133 -- MESSAGE -- Importing plugin 7_profile
+[2017-08-02 13:33:37,343] log.py->message():133 -- MESSAGE -- Imported plugin 7_profile
+[2017-08-02 13:33:37,344] log.py->message():133 -- MESSAGE -- Loading plugin 7_profile
+[2017-08-02 13:33:37,375] log.py->message():133 -- MESSAGE -- Loaded plugin 7_profile
+[2017-08-02 13:33:37,389] log.py->message():133 -- MESSAGE -- Importing plugin 7_scene_editor
+[2017-08-02 13:33:37,449] log.py->message():133 -- MESSAGE -- Imported plugin 7_scene_editor
+[2017-08-02 13:33:37,450] log.py->message():133 -- MESSAGE -- Loading plugin 7_scene_editor
+[2017-08-02 13:33:37,454] mhmain.py->addSetting():327 -- NOTICE -- Setting rendering_width is already declared. Adding it again has no effect.
+[2017-08-02 13:33:37,454] mhmain.py->addSetting():327 -- NOTICE -- Setting rendering_height is already declared. Adding it again has no effect.
+[2017-08-02 13:33:37,455] log.py->debug():112 -- DEBUG -- Assigning setting Scene_Editor_FileDlgPath value /home/absentia/makehuman/v1/data/scenes that was loaded before the setting was declared.
+[2017-08-02 13:33:37,476] log.py->message():133 -- MESSAGE -- Loaded plugin 7_scene_editor
+[2017-08-02 13:33:37,483] log.py->message():133 -- MESSAGE -- Importing plugin 7_scripting
+[2017-08-02 13:33:37,485] log.py->message():133 -- MESSAGE -- Imported plugin 7_scripting
+[2017-08-02 13:33:37,486] log.py->message():133 -- MESSAGE -- Loading plugin 7_scripting
+[2017-08-02 13:33:37,523] log.py->message():133 -- MESSAGE -- Loaded plugin 7_scripting
+[2017-08-02 13:33:37,538] log.py->message():133 -- MESSAGE -- Importing plugin 7_shell
+[2017-08-02 13:33:37,620] log.py->warning():119 -- WARNING -- Could not load 7_shell
+Traceback (most recent call last):
+  File "./core/mhmain.py", line 531, in loadPlugin
+    module = imp.load_module(name, fp, pathname, description)
+  File "plugins/7_shell.py", line 48, in <module>
+    import ipythonconsole
+  File "./lib/ipythonconsole.py", line 44, in <module>
+    from pygments.formatters import HtmlFormatter
+ImportError: No module named pygments.formatters
+[2017-08-02 13:33:37,765] log.py->message():133 -- MESSAGE -- Importing plugin 7_targets
+[2017-08-02 13:33:37,812] log.py->message():133 -- MESSAGE -- Imported plugin 7_targets
+[2017-08-02 13:33:37,813] log.py->message():133 -- MESSAGE -- Loading plugin 7_targets
+[2017-08-02 13:33:37,832] log.py->message():133 -- MESSAGE -- Loaded plugin 7_targets
+[2017-08-02 13:33:37,840] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_bvh
+[2017-08-02 13:33:37,901] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_bvh
+[2017-08-02 13:33:37,901] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_bvh
+[2017-08-02 13:33:37,906] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_bvh
+[2017-08-02 13:33:37,908] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_collada
+[2017-08-02 13:33:37,940] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_collada
+[2017-08-02 13:33:37,940] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_collada
+[2017-08-02 13:33:37,954] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_collada
+[2017-08-02 13:33:37,957] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_fbx
+[2017-08-02 13:33:38,037] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_fbx
+[2017-08-02 13:33:38,037] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_fbx
+[2017-08-02 13:33:38,043] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_fbx
+[2017-08-02 13:33:38,045] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_light
+[2017-08-02 13:33:38,132] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_light
+[2017-08-02 13:33:38,132] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_light
+[2017-08-02 13:33:38,135] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_light
+[2017-08-02 13:33:38,137] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_obj
+[2017-08-02 13:33:38,158] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_obj
+[2017-08-02 13:33:38,158] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_obj
+[2017-08-02 13:33:38,164] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_obj
+[2017-08-02 13:33:38,166] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_ogre
+[2017-08-02 13:33:38,294] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_ogre
+[2017-08-02 13:33:38,295] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_ogre
+[2017-08-02 13:33:38,298] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_ogre
+[2017-08-02 13:33:38,301] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_stl
+[2017-08-02 13:33:38,336] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_stl
+[2017-08-02 13:33:38,337] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_stl
+[2017-08-02 13:33:38,341] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_stl
+[2017-08-02 13:33:38,343] log.py->message():133 -- MESSAGE -- Importing plugin 9_export_uvmap
+[2017-08-02 13:33:38,406] log.py->message():133 -- MESSAGE -- Imported plugin 9_export_uvmap
+[2017-08-02 13:33:38,407] log.py->message():133 -- MESSAGE -- Loading plugin 9_export_uvmap
+[2017-08-02 13:33:38,409] log.py->message():133 -- MESSAGE -- Loaded plugin 9_export_uvmap
+[2017-08-02 13:33:38,412] log.py->message():133 -- MESSAGE -- Loading GUI
+[2017-08-02 13:33:38,558] log.py->debug():112 -- DEBUG -- showing category Modelling
+[2017-08-02 13:33:38,559] log.py->debug():112 -- DEBUG -- showing task Macro modelling
+[2017-08-02 13:33:38,677] log.py->message():133 -- MESSAGE -- Loading theme
+[2017-08-02 13:33:38,678] log.py->message():133 -- MESSAGE -- Theme makehuman version 1.1.0
+[2017-08-02 13:33:38,686] log.py->debug():112 -- DEBUG -- Loaded theme data/themes/makehuman.mht
+[2017-08-02 13:33:42,326] log.py->debug():112 -- DEBUG -- Loaded Qt style data/themes/makehuman.qss
+[2017-08-02 13:33:42,397] log.py->message():133 -- MESSAGE -- Applying targets
+[2017-08-02 13:33:43,052] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:33:43,253] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:33:43,419] log.py->message():133 -- MESSAGE -- Loading macro targets
+[2017-08-02 13:33:43,419] log.py->message():133 -- MESSAGE -- Loading done
+[2017-08-02 13:33:43,420] log.py->message():133 -- MESSAGE -- 
+[2017-08-02 13:33:44,079] _internal.py->_log():87 -- MESSAGE --  * Running on http://0.0.0.0:7000/ (Press CTRL+C to quit)
+[2017-08-02 13:34:45,395] log.py->message():133 -- MESSAGE -- Loading human from MHM file defaults.mhm.
+[2017-08-02 13:34:45,788] log.py->debug():112 -- DEBUG -- Loading skeleton from None
+[2017-08-02 13:34:45,942] log.py->debug():112 -- DEBUG -- Loading special foot pose from None
+[2017-08-02 13:34:46,515] log.py->debug():112 -- DEBUG -- Clothes library: updating face masks (face hiding enabled).
+[2017-08-02 13:34:46,530] log.py->debug():112 -- DEBUG -- 0 faces masked for base.obj
+[2017-08-02 13:34:46,618] log.py->debug():112 -- DEBUG -- Creating new file metadata cache /home/absentia/makehuman/v1/cache/material_filecache.mhc
+[2017-08-02 13:34:48,452] log.py->message():133 -- MESSAGE -- Selecting proxy file "data/eyes/high-poly/high-poly.mhclo" from eyes library.
+[2017-08-02 13:34:48,453] log.py->debug():112 -- DEBUG -- Loading binary proxy data/eyes/high-poly/high-poly.mhpxy.
+[2017-08-02 13:34:48,454] log.py->debug():112 -- DEBUG -- Loading proxy file: data/eyes/high-poly/high-poly.mhpxy.
+[2017-08-02 13:34:48,477] log.py->debug():112 -- DEBUG -- Loading material from file /home/absentia/makehuman/makehuman/data/eyes/materials/brown.mhmat
+[2017-08-02 13:34:48,483] log.py->debug():112 -- DEBUG -- Loading binary mesh /home/absentia/makehuman/makehuman/data/eyes/high-poly/high-poly.npz.
+[2017-08-02 13:34:48,896] log.py->debug():112 -- DEBUG -- Loading expression from None
+[2017-08-02 13:34:49,392] log.py->message():133 -- MESSAGE -- Version v1.2.0
+[2017-08-02 13:34:49,393] log.py->debug():112 -- DEBUG -- Tag defaults
+[2017-08-02 13:34:49,508] log.py->debug():112 -- DEBUG -- Creating new file metadata cache /home/absentia/makehuman/v1/cache/eyes_filecache.mhc
+[2017-08-02 13:34:49,538] log.py->message():133 -- MESSAGE -- Selecting proxy file "/home/absentia/makehuman/makehuman/data/eyes/high-poly/high-poly.mhpxy" from eyes library.
+[2017-08-02 13:34:49,538] log.py->debug():112 -- DEBUG -- Loading binary proxy /home/absentia/makehuman/makehuman/data/eyes/high-poly/high-poly.mhpxy.
+[2017-08-02 13:34:49,539] log.py->debug():112 -- DEBUG -- Loading proxy file: /home/absentia/makehuman/makehuman/data/eyes/high-poly/high-poly.mhpxy.
+[2017-08-02 13:34:49,562] log.py->debug():112 -- DEBUG -- Loading material from file /home/absentia/makehuman/makehuman/data/eyes/materials/brown.mhmat
+[2017-08-02 13:34:49,568] log.py->debug():112 -- DEBUG -- Proxy with UUID 2c12f43b-1303-432c-b7ce-d78346baf2e6 (/home/absentia/makehuman/makehuman/data/eyes/high-poly/high-poly.mhpxy) already loaded in eyes library. Skipping.
+[2017-08-02 13:34:49,570] log.py->debug():112 -- DEBUG -- Loading material from file /home/absentia/makehuman/makehuman/data/skins/default.mhmat
+[2017-08-02 13:34:49,648] log.py->debug():112 -- DEBUG -- Loading material from file /home/absentia/makehuman/makehuman/data/eyes/materials/brown.mhmat
+[2017-08-02 13:34:49,653] log.py->debug():112 -- DEBUG -- Finalizing MHM loading.
+[2017-08-02 13:34:49,653] log.py->debug():112 -- DEBUG -- Clothes library: updating face masks (face hiding enabled).
+[2017-08-02 13:34:49,668] log.py->debug():112 -- DEBUG -- 0 faces masked for base.obj
+[2017-08-02 13:34:51,563] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:51,767] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:51,929] log.py->message():133 -- MESSAGE -- Done loading MHM file.
+[2017-08-02 13:34:52,080] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:52,282] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:52,611] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:52,813] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:53,043] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:53,244] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:53,475] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:53,676] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:54,037] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:54,240] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:54,416] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:34:54,430] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:34:54,432] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glRenderbufferStorageMultisample from glRenderbufferStorageMultisample, glRenderbufferStorageMultisampleEXT
+[2017-08-02 13:34:54,439] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glCheckFramebufferStatus from glCheckFramebufferStatus, glCheckFramebufferStatusEXT
+[2017-08-02 13:34:54,458] log.py->debug():112 -- DEBUG -- Creating new texture for dynamic image data/litspheres/adaptive_skin_tone.png.
+[2017-08-02 13:34:54,460] log.py->debug():112 -- DEBUG -- initTexture: 256, 256, False
+[2017-08-02 13:34:54,466] log.py->debug():112 -- DEBUG -- Creating new texture for image /home/absentia/makehuman/makehuman/data/eyes/materials/brown_eye.png.
+[2017-08-02 13:34:54,577] log.py->debug():112 -- DEBUG -- initTexture: 1024, 1024, False
+[2017-08-02 13:34:54,578] log.py->debug():112 -- DEBUG -- Creating new texture for image /home/absentia/makehuman/makehuman/data/litspheres/skinmat_eye.png.
+[2017-08-02 13:34:54,593] log.py->debug():112 -- DEBUG -- initTexture: 256, 256, False
+[2017-08-02 13:34:54,599] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glBlitFramebuffer from glBlitFramebuffer, glBlitFramebufferEXT
+[2017-08-02 13:34:54,600] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glDeleteFramebuffers from glDeleteFramebuffers, glDeleteFramebuffersEXT
+[2017-08-02 13:34:54,600] extensions.py->finalise():182 -- DEBUG -- Chose alternate: glDeleteRenderbuffers from glDeleteRenderbuffers, glDeleteRenderbuffersEXT
+[2017-08-02 13:34:55,234] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706be2590>" loaded in image viewer.
+[2017-08-02 13:34:55,235] log.py->debug():112 -- DEBUG -- hiding category Modelling
+[2017-08-02 13:34:55,236] log.py->debug():112 -- DEBUG -- showing category Rendering
+[2017-08-02 13:34:55,237] log.py->debug():112 -- DEBUG -- hiding task Macro modelling
+[2017-08-02 13:34:55,237] log.py->debug():112 -- DEBUG -- showing task Render
+[2017-08-02 13:34:55,257] log.py->debug():112 -- DEBUG -- hiding task Render
+[2017-08-02 13:34:55,259] log.py->debug():112 -- DEBUG -- showing task Viewer
+[2017-08-02 13:34:55,518] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:34:55] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:34:55,658] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:55,862] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:56,128] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:56,330] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:56,544] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:56,745] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:56,959] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:57,161] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:57,538] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:57,740] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:57,889] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:34:57,892] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:34:58,452] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706b83dd0>" loaded in image viewer.
+[2017-08-02 13:34:58,742] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:34:58] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:34:58,891] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:59,093] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:59,345] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:59,547] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:34:59,769] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:34:59,971] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:00,194] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:00,396] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:00,685] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:00,886] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:01,036] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:35:01,039] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:35:01,602] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706b95690>" loaded in image viewer.
+[2017-08-02 13:35:01,913] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:35:01] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:35:02,064] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:02,267] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:02,522] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:02,724] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:02,948] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:03,150] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:03,374] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:03,576] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:03,866] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:04,067] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:04,217] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:35:04,220] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:35:04,785] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706b95250>" loaded in image viewer.
+[2017-08-02 13:35:05,102] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:35:05] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:35:05,255] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:05,457] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:05,777] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:05,979] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:06,203] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:06,405] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:06,629] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:06,830] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:07,196] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:07,398] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:07,547] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:35:07,550] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:35:08,114] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706b9aad0>" loaded in image viewer.
+[2017-08-02 13:35:08,430] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:35:08] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:35:08,586] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:08,789] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:09,044] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:09,246] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:09,471] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:09,673] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:09,898] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:10,100] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:10,390] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:10,592] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:10,741] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:35:10,744] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:35:11,306] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706b9a610>" loaded in image viewer.
+[2017-08-02 13:35:11,615] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:35:11] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:35:11,779] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:11,987] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:12,241] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:12,443] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:12,667] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:12,867] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:13,090] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:13,291] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:13,580] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:13,780] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:13,929] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:35:13,932] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:35:14,490] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706c22b10>" loaded in image viewer.
+[2017-08-02 13:35:14,792] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:35:14] "POST /render HTTP/1.1" 200 -
+[2017-08-02 13:35:14,956] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:15,157] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:15,412] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:15,613] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:15,838] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:16,038] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:16,261] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:16,462] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:16,743] log.py->debug():112 -- DEBUG -- Updating skeleton joint positions
+[2017-08-02 13:35:16,944] log.py->debug():112 -- DEBUG -- Done baking animations
+[2017-08-02 13:35:17,092] log.py->debug():112 -- DEBUG -- Loading scene file: data/scenes/warmlights.mhscene
+[2017-08-02 13:35:17,095] log.py->message():133 -- MESSAGE -- Rendering at 900x1500
+[2017-08-02 13:35:17,654] log.py->message():133 -- MESSAGE -- Image "<image.Image object at 0x7fc706ba59d0>" loaded in image viewer.
+[2017-08-02 13:35:17,949] _internal.py->_log():87 -- MESSAGE -- 127.0.0.1 - - [02/Aug/2017 13:35:17] "POST /render HTTP/1.1" 200 -

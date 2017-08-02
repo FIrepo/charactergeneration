@@ -1,0 +1,14 @@
+{
+
+"breast/BreastFirmness":0.0,
+"breast/BreastSize":0.0,
+"breast/breast-dist-decr|incr":-1.0,
+"breast/breast-point-decr|incr":-1.0,
+"breast/breast-trans-down|up":-1.0,
+"breast/breast-volume-vert-down|up":-1.0,
+"breast/nipple-point-decr|incr":-1.0,
+"breast/nipple-size-decr|incr":-1.0,
+"measure/measure-bust-circ-decr|incr":-1.0,
+"measure/measure-underbust-circ-decr|incr":-1.0
+
+}

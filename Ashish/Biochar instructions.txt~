@@ -1,0 +1,91 @@
+In the biocharnorah directory there are 4 scripts for all the common tasks 9 documentation files and 8 example settings files.
+
+
+SCRIPTS
+
+update.sh:
+Get the latest updates from bitbucket.
+
+
+cleanup.sh:
+Close any copies of the program still running.
+
+
+debug.sh:
+Same as below, but show all output.
+
+
+biocharnorah.sh:
+Run makehuman with specified options, hiding all output.
+
+Example:
+cd ~/Desktop/biocharnorah
+./biocharnorah.sh -d design.json -r render.json -x mb -s .5 -o out.png -j designout.json --fbxexport exportfbx.json -3 out
+
+This will read design parameters from design.json, randomize all parameters except the height and face with 50% symmetry, render the resulting model to out.png, save the randomized settings to designout.json, and save the 3d mesh to out.fbx using the parameters in exportfbx.json.
+
+All parameters are optional and will use default values if not specified except:
+-x: if not specified, no randomization will be done. If specified, the letters following will control which parameters will be randomized, m=macro, h=height, f=face, b=body
+-s: if not specified any randomization will be 100% symmetrical
+--***export and -3: must be specified together, if either is not specified, no export will be done.  Multiple export formats may be specified, all of them will be saved to a file named with the -3 option and an appropriate extension.  All built-in export formats are working except bvh.
+-o: if not specified, no image will be saved.
+
+
+DOCUMENTATION
+
+makehumanoptions.txt:
+Documentation for all command line options.
+
+designoptions.csv:
+Documentation for all options in design.json
+
+render.json.txt:
+Documentatnio for all options in render.json
+
+exportfbx.json.txt:
+Documented options for exporting a 3d file of the model in Filmbox format.
+
+exportdae.json.txt:
+Documented options for exporting a 3d file of the model in Collada format.
+
+exportobj.json.txt:
+Documented options for exporting a 3d file of the model in Wavefront obj format.
+
+exportogre.json.txt:
+Documented options for exporting a 3d file of the model in Ogre3d format.
+
+exportstl.json.txt:
+Documented options for exporting a 3d file of the model in Stereolithography format.
+
+exportbvh.json.txt:
+Documented options for exporting a 3d file of the model in BioVision Hierarchy format.
+
+
+
+EXAMPLES
+
+design.json:
+Options for modelling settings, materials and proxies.
+
+render.json:
+Options for rendering a 2d image of the model.
+
+exportfbx.json:
+Options for exporting a 3d file of the model in Filmbox format.
+
+exportdae.json:
+Options for exporting a 3d file of the model in Collada format.
+
+exportobj.json:
+Options for exporting a 3d file of the model in Wavefront obj format.
+
+exportogre.json:
+Options for exporting a 3d file of the model in Ogre3d format.
+
+exportstl.json:
+Options for exporting a 3d file of the model in Stereolithography format.
+
+exportbvh.json:
+Options for exporting a 3d file of the model in BioVision Hierarchy format.
+
+

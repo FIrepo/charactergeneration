@@ -1,0 +1,6 @@
+{
+	"feet_on_ground": 0, /* 1 */
+	"hidden_geom": 0, /* 1 */
+	"unit": "meter", /* centimeter, decimeter, inch */
+	"use_normals": 0 /* 1 */
+}

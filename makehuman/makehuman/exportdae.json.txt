@@ -1,0 +1,8 @@
+{
+	"feet_on_ground": 0, /* 1 */
+	"hidden_geom": 0, /* 1 */
+	"unit": "meter", /* centimeter, decimeter, inch */
+	"orientation": "yUpFaceX", /* yUpFaceZ, zUpFaceNegY, zUpFaceX*/
+	"bone_orientation": "localG", /* localX, localY */
+	"facial_pose_units": 0 /* 1 */
+}

@@ -1,0 +1,7 @@
+{
+	"width":300,
+	"height": 500,
+    "anti_aliasing":1,
+    "lightmap_sss":0,
+    "scene":"warmlights"
+}

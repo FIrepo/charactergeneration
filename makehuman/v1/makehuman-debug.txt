@@ -1,0 +1,35 @@
+VERSION: 1.2.0 (r2156 312760b1b66a) [hg parents command]
+HG REVISION: r2156 (312760b1b66a) [hg parents command]
+HG BRANCH: default
+SHORT VERSION: v1.2.0
+BASEMESH VERSION: hm08
+IS BUILT (FROZEN): No
+IS RELEASE VERSION: No
+DEFAULT ENCODING: utf-8
+FILESYSTEM ENCODING: UTF-8
+STDOUT ENCODING: None
+WORKING DIRECTORY: /home/absentia/makehuman/makehuman
+HOME LOCATION: /home/absentia
+PYTHON PATH: ./:./lib:./apps:./shared:./apps/gui:./core:/home/absentia/makehuman/makehuman:/usr/lib/python2.7:/usr/lib/python2.7/plat-x86_64-linux-gnu:/usr/lib/python2.7/lib-tk:/usr/lib/python2.7/lib-old:/usr/lib/python2.7/lib-dynload:/home/absentia/.local/lib/python2.7/site-packages:/home/absentia/.local/lib/python2.7/site-packages/video2gif_code-0.1-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/tqdm-4.11.2-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/moviepy-0.2.3.2-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/imageio-2.1.2-py2.7.egg:/home/absentia/.local/lib/python2.7/site-packages/olefile-0.44-py2.7.egg:/usr/local/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages:/usr/lib/python2.7/dist-packages/PILcompat:/usr/lib/python2.7/dist-packages/gtk-2.0:/usr/lib/python2.7/dist-packages/ubuntu-sso-client
+DLL PATH: /home/absentia/anaconda3/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+SYS.VERSION: 2.7.12 (default, Nov 19 2016, 06:48:10)  [GCC 5.4.0 20160609]
+SYS.PLATFORM: linux2
+SYS.EXECUTABLE: /usr/bin/python2
+PLATFORM.MACHINE: x86_64
+PLATFORM.PROCESSOR: x86_64
+PLATFORM.UNAME.RELEASE: 4.4.0-83-generic
+PLATFORM.LINUX_DISTRIBUTION: Ubuntu 16.04 xenial
+NUMPY.VERSION: 1.11.0
+PYQT.VERSION: 4.8.7
+PYQT.JPG_SUPPORT: supported
+PYQT.SVG_SUPPORT: supported
+QT.PLUGIN_PATH: /usr/lib/x86_64-linux-gnu/qt4/plugins:/usr/bin
+QT.PLUGIN_PATH_ENV: 
+QT.CONF: NOT PRESENT
+PYOPENGL.VERSION: 3.0.2
+GL.VENDOR: Intel Open Source Technology Center
+GL.RENDERER: Mesa DRI Intel(R) Ivybridge Mobile 
+GL.VERSION: 3.0 Mesa 12.0.6
+GLSL.VERSION: 1.30
+GL.EXTENSION: GL_ARB_multisample enabled (4x samples)
+GL.EXTENSION: GL_ARB_texture_non_power_of_two enabled
