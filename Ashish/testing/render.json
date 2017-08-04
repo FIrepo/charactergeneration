@@ -1,1 +1,7 @@
-/home/absentia/makehuman/makehuman/examplerender.json
+{
+    "width": 900,
+    "height": 1500,
+    "anti_aliasing": 1,
+    "lightmap_sss": 0,
+    "scene": "warmlights"
+}
