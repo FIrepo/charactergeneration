@@ -1,10 +1,19 @@
 import json
 import io
-
+import os;
+dirname = os.path.dirname(os.path.abspath(__file__));
 def writeFile(outputjson,files):
-    with io.open('data%d.json' % files, 'w', encoding='utf8') as outfile:
-         outfile.write(unicode(json.dumps(outputjson, ensure_ascii=False)))
+	dirname = os.path.dirname(os.path.abspath(__file__));
+	print dirname+'data%d.json' %files
+	with io.open(dirname+'/data%d.json' % files, 'w', encoding='utf8') as outfile:
+        	outfile.write(unicode(json.dumps(outputjson, ensure_ascii=False)))
+		print 'saving'+ dirname+'data%d.json' %files;
 
+def writeFile_1(outputjson,name):
+	dirname = os.path.dirname(os.path.abspath(__file__));
+	print dirname+'%s.json' %name
+	with io.open(dirname+'/%s.json' % name, 'w', encoding='utf8') as outfile:
+        	outfile.write(unicode(json.dumps(outputjson, ensure_ascii=False)))
 
 def interpolation(shape1,shape2,nShapes):
 	# nShapes=3
@@ -15,9 +24,9 @@ def interpolation(shape1,shape2,nShapes):
 	for i in xrange(nShapes):
 		i=i+1
 		for j in xrange(nPoints):
-			y1 = shape1[j]
+			y1 = float(shape1[j])
 			# print "y1 = ",y1
-			y2 = shape2[j]
+			y2 = float(shape2[j])
 			# print "y2 = ",y2
 			dy = (y2-y1)/(nShapes+1)
 			# print "dy = ",dy
@@ -26,10 +35,18 @@ def interpolation(shape1,shape2,nShapes):
 			N[i-1].append(yN)
 	return N
 
-with open('input.json', 'r') as f:
+with open(dirname+'/input.json', 'r') as f:
     input1 = json.load(f)
-with open('output.json','r') as f2:
+with open(dirname+'/output.json','r') as f2:
     output = json.load(f2)
+	
+output.pop("eyes",None)
+input1.pop("eyes",None)
+output.pop("skin",None)
+input1.pop("skin",None)
+writeFile_1(output,"output")
+writeFile_1(input1,"input")
+
 inputList = []
 outputList = []
 keyList = []
@@ -44,13 +61,13 @@ for key,value in output.items():
 # print inputList
 # print outputList
 
-complete = interpolation(inputList,outputList,6)
+complete = interpolation(inputList,outputList,3)
 #print "Length of out",len(complete)
 print complete
 for i in range(0,len(complete)):
-    with open('input.json', 'r') as f:
+    with open(dirname+'/input.json', 'r') as f:
         newjson = json.load(f)
         for j in range(0,len(complete[i])):
             newjson[keyList[j]] = complete[i][j]
-        # print newjson.items()
+        print newjson.items()
         writeFile(newjson,i)    
